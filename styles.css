@@ -69,3 +69,25 @@ footer {
   font-size: 0.9em;
   color: #ff66a3;
 }
+
+/* 📱 Mobile-Friendly Adjustments */
+@media (max-width: 500px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  .instructions {
+    font-size: 1rem;
+  }
+
+  #word-search-grid {
+    grid-template-columns: repeat(auto-fill, minmax(24px, 1fr));
+    gap: 4px;
+    padding: 5px;
+  }
+
+  #word-search-grid div {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+}

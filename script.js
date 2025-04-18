@@ -3,7 +3,7 @@ const gridContainer = document.getElementById("word-search-grid");
 const wordListElement = document.getElementById("word-list");
 
 // Words to find (add more words here)
-const words = ["FOXY", "UBER", "COZY", "NAKED", "MAKEOUT", "EDINBURGH", "BLOWJOB", "BATHROOM","CUDDLES", "CHILOS", "HAYMARKET", "TESCO"];
+const words = ["FOXY", "UBER", "COZY", "NAKED", "MAKEOUT", "MATCHA", "EDINBURGH", "BLOWJOB", "BATHROOM","CUDDLES", "CHILOS", "HAYMARKET", "TESCO"];
 let remainingWords = [...words]; // Copy of the words array for tracking found words
 wordListElement.textContent = remainingWords.join(", ");
 
